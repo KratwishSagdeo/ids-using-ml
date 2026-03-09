@@ -1,21 +1,21 @@
-# Large dataset files
+# datasets
+*.csv
 *.pcap
 *.pcapng
-*.csv
 *.zip
 *.npy
 *.db
 
-# Upload folder
-uploads/
-
-# Jupyter notebook checkpoints
-notebooks/.ipynb_checkpoints/
-
-# Python cache
+# python
 __pycache__/
 *.pyc
 
-# Environment files
-.env
+# environments
 venv/
+.env
+
+# jupyter
+.ipynb_checkpoints/
+
+# uploads
+uploads/
